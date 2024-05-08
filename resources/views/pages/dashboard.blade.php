@@ -436,7 +436,7 @@
                     for (const key in oldPayload) {
                         let index = parseInt(key.substring(key.length - 1));
                         newCartPayload[index - 1] = {
-                            name: `Sensor ${index}`,
+                            name: Sensor ${index},
                             data: combineValues(updatedCategories, oldPayload[key], sortType)
                         };
                     }
@@ -606,7 +606,7 @@
                         for (const key in oldHumidPayload) {
                             let index = parseInt(key.substring(key.length - 1));
                             newCartPayloadHumid[index - 1] = {
-                                name: `Sensor ${index}`,
+                                name: Sensor ${index},
                                 data: combineHumidValues(updatedHumidCategories, oldHumidPayload[key],
                                     sortTypeHumid)
                             };
@@ -750,7 +750,7 @@
                         for (const key in oldPayload) {
                             let index = parseInt(key.substring(key.length - 1));
                             newHumidCartPayload[index - 1] = {
-                                name: `Sensor ${index}`,
+                                name: Sensor ${index},
                                 data: combineValuesHumid(updatedHumidCategories, oldPayload[key])
                             };
                         }

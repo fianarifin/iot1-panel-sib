@@ -51,3 +51,10 @@
 
     </ul>
 </div>
+
+
+<li class="nav-item">
+    <a class="nav-link" href="{{ route('temperatures') }}">
+        <i class="fas fa-temperature-high"></i>
+        <span>Monitoring Temperature</span></a>
+</li>
